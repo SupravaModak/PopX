@@ -1,0 +1,57 @@
+.account-settings {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom:-20px;
+  }
+
+  .user-info h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+
+  .user-info p {
+    font-size: 20px;
+    color: #010000;
+  }
+
+  .content {
+    margin-top: 50px;
+  }
+
+  .content p {
+    font-size: 15px;
+    color: #0e0909;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .account-settings {
+      padding: 10px;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+    }
+
+    .user-info h1 {
+      font-size: 30px;
+    }
+
+    .user-info p {
+      font-size: 20px;
+    }
+
+    .content p {
+      font-size: 14px;
+    }
+  }
